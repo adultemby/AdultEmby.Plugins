@@ -1,0 +1,942 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Recherche</title>
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="/resources/frontend-vision/1484817497.css" />
+
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/resources/apple-touch-icon-57x57/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/resources/apple-touch-icon-60x60/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/resources/apple-touch-icon-72x72/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/resources/apple-touch-icon-76x76/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/resources/apple-touch-icon-114x114/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/resources/apple-touch-icon-120x120/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/resources/apple-touch-icon-144x144/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/resources/apple-touch-icon-152x152/1427187976.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/apple-touch-icon-180x180/1427187976.png" />
+    <link rel="icon" type="image/png" href="/resources/favicon-32x32/1427187976.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/resources/android-chrome-192x192/1427187978.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="/resources/favicon-96x96/1427187976.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/resources/favicon-16x16/1427187976.png" sizes="16x16" />
+    <link rel="manifest" href="/resources/manifest/1427188917.json" />
+    <meta name="msapplication-TileColor" content="#9f00a7" />
+    <meta name="msapplication-TileImage" content="/resources/mstile-144x144/1427187978.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <script type="text/javascript">
+<!--
+			var _language = 'fr'; //-->
+    </script>
+    <script type="text/javascript" src="/resources/frontend/1484768955.js"></script>
+    <script type="text/javascript">
+<!--
+			var _abtasty = [];
+			(function (i, s, o, g, r, a, m) {
+				i[r] = i[r] || [], i['abtiming'] = 1 * new Date();
+				a = s.createElement(o),
+						m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//try.abtasty.com/656fe7d3f775e267d67a682d96f102b2.js', '_abtasty');
+
+			(function (i, s, o, g, r, a, m) {
+				i['GoogleAnalyticsObject'] = r;
+				i[r] = i[r] || function () {
+					(i[r].q = i[r].q || []).push(arguments)
+				}, i[r].l = 1 * new Date();
+				a = s.createElement(o),
+						m = s.getElementsByTagName(o)[0];
+				a.async = 1;
+				a.src = g;
+				m.parentNode.insertBefore(a, m)
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+			ga('create', 'UA-554103-1', 'auto');
+			ga('send', 'pageview');
+			//-->
+    </script>
+</head>
+<body id="search-search" class="vision svodoff">
+    <script type="text/javascript">
+<!--
+			_vsnr.disclaimer(); //-->
+    </script>
+
+    <nav id="navbar-top" role="navigation" class="navbar navbar-default">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <span class="sr-only">toggle_navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/fr/" class="navbar-brand"></a>
+
+                <div class="visible-xs collapse" id="detect-visible-xs"></div>
+                <div class="visible-sm collapse" id="detect-visible-sm"></div>
+                <div class="visible-md collapse" id="detect-visible-md"></div>
+                <div class="visible-lg collapse" id="detect-visible-lg"></div>
+            </div>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                <ul id="navbar-login" class="nav navbar-nav navbar-right">
+                    <li>
+                        <div class="user-form">
+                            <a id="login-open" class="button anonymous" href="#login-form">Se connecter</a>
+                            <div style="display:none;">
+                                <div id="login-form" class="col-xs-12 col-sm-6 col-sm-offset-6">
+                                    <form id="login-box" action="/fr/loginAjax" class="login-form" method="post" onsubmit="return _vsnr.login(this);">
+                                        <h2>Je me connecte</h2>
+                                        <fieldset>
+                                            <div class="field email-field">
+                                                <label>E-mail</label>
+                                                <div><input type="text" id="login-email" name="login-email" value="" tabindex="1" /></div>
+                                            </div>
+                                            <div class="field password-field">
+                                                <label>Mot de passe</label>
+                                                <div><input type="password" id="login-password" name="login-password" value="" tabindex="2" /></div>
+                                            </div>
+                                            <a href="#passwordremember-form" id="forgot-password" onclick="$('#login-box').hide();
+							$('#passwordremember-box').show();">Mot de passe oublié ?</a>
+                                        </fieldset>
+                                        <div id="login-message"></div>
+                                        <div class="button login-button">
+                                            <input type="submit" value="Se connecter" class="btn btn-primary" />
+                                        </div>
+                                    </form>
+                                    <form id="passwordremember-box" action="/fr/passwordRememberAjax" class="login-form" method="post" onsubmit="return _vsnr.ajaxSubmit(this);">
+                                        <h2>Mot de passe oublié</h2>
+                                        <div id="password-message" class="message">Indiquez ci-dessous l'adresse email sous laquelle vous vous êtes enregistré pour recevoir un E-mail vous indiquant la marche à suivre pour récupérer votre accès.</div>
+                                        <fieldset>
+                                            <div class="field email-field">
+                                                <label>E-mail</label>
+                                                <div><input type="text" id="password-email" name="password-email" value="" tabindex="1" /></div>
+                                            </div>
+                                        </fieldset>
+                                        <div class="button login-button">
+                                            <input type="submit" value="Envoyer" class="btn btn-primary" />
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <a id="account-button" class="button user-block" href="/fr/account">Mon Compte</a>
+                        </div>
+                    </li>
+                </ul>
+                <div id="search-form" class="nav navbar-nav navbar-right">
+                    <form action="/fr/recherche" class="search-form" method="get">
+                        <input type="hidden" name="type" value="4" />											<input type="text" id="menu-search" name="keyword" value="Recherche" onfocus="if (this.value == &#039;Recherche&#039;) this.value = &#039;&#039;;" />										<input type="submit" id="search-button" value="" />
+                    </form>
+                </div>
+                <ul id="navbar-menu" class="nav navbar-nav navbar-right">
+                    <li id="navbar-news"><a href="/fr/films/#date" onclick="$('#sort-by-date').click().click();">Nouveautés</a></li>
+                    <li id="navbar-actors"><a href="/fr/actrices-x/">Actrices</a></li>
+                    <li id="navbar-browse" class="hidden-xs"><a href="/fr/films/">Films X</a></li>
+                    <li id="navbar-movies" class="visible-xs"><a href="/fr/films/">Films</a></li>
+                    <li id="navbar-scenes" class="visible-xs"><a href="/fr/films/">Scènes</a></li>
+                    <li id="navbar-trailers" class="visible-xs"><a href="/fr/films/">B.A.</a></li>
+                    <li id="navbar-themes" class="visible-xs"><a href="/fr/thematiques/">Thématiques</a></li>
+                    <li id="navbar-practices" class="visible-xs"><a href="/fr/pratiques/">Pratiques</a></li>
+                    <li id="navbar-series" class="visible-xs"><a href="/fr/series/">Séries</a></li>
+                    <li id="navbar-studios" class="visible-xs"><a href="/fr/studios">Studios</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="navbar-spacer"></div>
+    <div id="happy-hours-box">
+        <div class="container">
+            <a class="floating" onclick="$(this).parent().parent().hide();
+							return _vsnr.location.disableHappy()">&times;</a>
+            <p><em>DERNIER JOUR</em> !</p>
+            <span class="stopwatch"><span></span></span>
+            <p>Jusqu'à <strong>69€ offerts !</strong></p>
+            <span class="from-to">
+                Jusqu'au LINE_RETURN
+                ENDDAY ENDMONTH
+            </span>
+            <a class="btn btn-primary" href="/fr/payment" onclick="_vsnr.cart.reset();">J'en profite ! </a>
+        </div>
+    </div>
+    <div id="breadcrumb">
+        <ul class="breadcrumb container">
+            <li>
+                <a href="/fr/">Accueil</a>
+            </li>
+            <li>
+                <a href="/fr/recherche">Recherche</a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+
+        <h1>Recherche</h1>
+        <div class="row">
+            <div class="col-xs-12">
+                <form id="searchForm" method="get" action="/fr/recherche">
+                    <input type="hidden" name="type" id="searchType" value="4" />
+                    <div class="shadow col-xs-8 col-sm-4 col-md-3"><input type="text" name="keyword" value="pornochic" /></div>
+                    <button class="btn btn-primary">ok</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="row line">
+            <ul class="browser col-xs-12">
+                <li class="active">
+                    <a href="#" onclick="$('#searchType').val(4);
+								$('#searchForm').submit();
+								return false">films (35)</a>
+                </li>
+                <li>
+                    <a href="#" onclick="$('#searchType').val(8);
+								$('#searchForm').submit();
+								return false">Séries (1)</a>
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+
+        <form id="entriesFilter" method="get" action="/fr/movie/endlessAjax" data-list="entriesList" onsubmit="return false;">
+            <input type="hidden" name="page" />
+            <input type="hidden" name="keyword" value="pornochic" />
+        </form>
+
+        <div id="search-movies">
+            <div id="entriesList" class="slides row">
+                <div class=" col-xs-6 col-sm-6 col-md-4">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-20-anna-polina" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless3/8005.jpg" width="326" height="456" alt="Pornochic 20 - Anna Polina" class="responsive" />
+                    </a>
+                    <div class="rollover first">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-20-anna-polina">
+                            <div class="title">Pornochic 20 - Anna Polina</div>
+                            <div class="information">
+                                <div class="duration"><span>1h34</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="hidden-xs actors">Avec : Anna Polina, Eve Angel, Lucy Belle, Antonia, Amabella, Yanick Shaft, James Brossman, J.P.X, Alex., Sabbg, Greg Centauro, Valentino</div>
+                            <div class="hidden-xs teaser"></div>
+                            <div class="text-center">
+                                <a data-movie="3266"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-20-anna-polina">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2 margin-sm margin-md">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-27-superstars" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/741966.jpg" width="155" height="217" alt="Pornochic 27 - Superstars" class="responsive" />																						<span class="slashbanner"><img src="/resources/promotion-fr/1480065027.png" alt="" /></span>
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-27-superstars">
+                            <div class="title">Pornochic 27 - Superstars</div>
+                            <div class="information">
+                                <div class="duration"><span>1h59</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="13562"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-27-superstars">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2 margin-sm margin-md">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-17-tarra" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/27295.jpg" width="155" height="217" alt="Pornochic 17 - Tarra" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-17-tarra">
+                            <div class="title">Pornochic 17 - Tarra</div>
+                            <div class="information">
+                                <div class="duration"><span>1h42</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="1986"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-17-tarra">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2 margin-md">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-18-aletta-ocean" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/15041.jpg" width="155" height="217" alt="Pornochic 18 - Aletta Ocean" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-18-aletta-ocean">
+                            <div class="title">Pornochic 18 - Aletta Ocean</div>
+                            <div class="information">
+                                <div class="duration"><span>1h45</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="2312"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-18-aletta-ocean">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2 margin-md">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-15-melissa" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/35474.jpg" width="155" height="217" alt="Pornochic 15 - Melissa" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-15-melissa">
+                            <div class="title">Pornochic 15 - Melissa</div>
+                            <div class="information">
+                                <div class="duration"><span>1h40</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="1172"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-15-melissa">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-14-yasmine" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/38908.jpg" width="155" height="217" alt="Pornochic 14 - Yasmine" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-14-yasmine">
+                            <div class="title">Pornochic 14 - Yasmine</div>
+                            <div class="information">
+                                <div class="duration"><span>1h34</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="973"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-14-yasmine">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-19-jade-laroche" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/14417.jpg" width="155" height="217" alt="Pornochic 19 - Jade Laroche" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-19-jade-laroche">
+                            <div class="title">Pornochic 19 - Jade Laroche</div>
+                            <div class="information">
+                                <div class="duration"><span>1h35</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="2730"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-19-jade-laroche">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-22-femmes-fatales" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/15220.jpg" width="155" height="217" alt="Pornochic 22 - Femmes Fatales" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-22-femmes-fatales">
+                            <div class="title">Pornochic 22 - Femmes Fatales</div>
+                            <div class="information">
+                                <div class="duration"><span>1h38</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="3921"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-22-femmes-fatales">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-25-anissa-kate" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/646648.jpg" width="155" height="217" alt="Pornochic 25 - Anissa Kate" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-25-anissa-kate">
+                            <div class="title">Pornochic 25 - Anissa Kate</div>
+                            <div class="information">
+                                <div class="duration"><span>2h00</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="8992"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-25-anissa-kate">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-26-lola-reve" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/709646.jpg" width="155" height="217" alt="Pornochic 26 - Lola Rêve" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-26-lola-reve">
+                            <div class="title">Pornochic 26 - Lola Rêve</div>
+                            <div class="information">
+                                <div class="duration"><span>1h40</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="11094"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-26-lola-reve">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-24-ariel-rebel-lola-reve" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/46943.jpg" width="155" height="217" alt="Pornochic 24 - Ariel Rebel &amp; Lola Reve" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-24-ariel-rebel-lola-reve">
+                            <div class="title">Pornochic 24 - Ariel Rebel &amp; Lola Reve</div>
+                            <div class="information">
+                                <div class="duration"><span>3h04</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="7185"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-24-ariel-rebel-lola-reve">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-23-claire-castel" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/22317.jpg" width="155" height="217" alt="Pornochic 23 - Claire Castel" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-23-claire-castel">
+                            <div class="title">Pornochic 23 - Claire Castel</div>
+                            <div class="information">
+                                <div class="duration"><span>1h18</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="4456"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-23-claire-castel">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-13-suzie" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/19308.jpg" width="155" height="217" alt="Pornochic 13 - Suzie" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-13-suzie">
+                            <div class="title">Pornochic 13 - Suzie</div>
+                            <div class="information">
+                                <div class="duration"><span>1h32</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="553"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-13-suzie">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-21-aleska-angelika" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/42656.jpg" width="155" height="217" alt="Pornochic 21 - Aleska &amp; Angelika" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-21-aleska-angelika">
+                            <div class="title">Pornochic 21 - Aleska &amp; Angelika</div>
+                            <div class="information">
+                                <div class="duration"><span>1h49</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="3596"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-21-aleska-angelika">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-16-yasmine-regina" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/6021.jpg" width="155" height="217" alt="Pornochic 16 - Yasmine &amp; Regina" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-16-yasmine-regina">
+                            <div class="title">Pornochic 16 - Yasmine &amp; Regina</div>
+                            <div class="information">
+                                <div class="duration"><span>1h30</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="1784"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-16-yasmine-regina">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-01-sophia" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/25622.jpg" width="155" height="217" alt="Pornochic 01 - Sophia" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-01-sophia">
+                            <div class="title">Pornochic 01 - Sophia</div>
+                            <div class="information">
+                                <div class="duration"><span>1h54</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="400"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-01-sophia">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-02-katarina" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/40491.jpg" width="155" height="217" alt="Pornochic 02 - Katarina" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-02-katarina">
+                            <div class="title">Pornochic 02 - Katarina</div>
+                            <div class="information">
+                                <div class="duration"><span>1h35</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="401"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-02-katarina">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-12-katsumi" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/4242.jpg" width="155" height="217" alt="Pornochic 12 - Katsumi" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-12-katsumi">
+                            <div class="title">Pornochic 12 - Katsumi</div>
+                            <div class="information">
+                                <div class="duration"><span>1h29</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="512"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-12-katsumi">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-11-sophie" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/26588.jpg" width="155" height="217" alt="Pornochic 11 - Sophie" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-11-sophie">
+                            <div class="title">Pornochic 11 - Sophie</div>
+                            <div class="information">
+                                <div class="duration"><span>1h30</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="247"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-11-sophie">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class=" col-xs-6 col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-10-oksana" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/15821.jpg" width="155" height="217" alt="Pornochic 10 - Oksana" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-10-oksana">
+                            <div class="title">Pornochic 10 - Oksana</div>
+                            <div class="information">
+                                <div class="duration"><span>1h34</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="238"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-10-oksana">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class=" hidden-xs col-sm-3 col-md-2">
+
+                    <a href="/fr/films/marc-dorcel/pornochic-03-cristal" class="movies rollover">
+                        <img src="https://www.dorcelvision.com/images/endless6/10990.jpg" width="155" height="217" alt="Pornochic 03 - Cristal" class="responsive" />
+                    </a>
+                    <div class="rollover notfirst">
+                        <div class="inner" data-url="/fr/films/marc-dorcel/pornochic-03-cristal">
+                            <div class="title">Pornochic 03 - Cristal</div>
+                            <div class="information">
+                                <div class="duration"><span>2h00</span></div>
+                                <div class="studio"><img src="https://www.dorcelvision.com/images/studiorollover/805526.jpg" width="50" height="30" alt="" /></div>
+                            </div>
+                            <div class="text-center">
+                                <a data-movie="402"
+                                   data-type="streaming"
+                                   data-svod="1"
+                                   data-scene=""
+                                   class="btn-view notavailable btn btn-primary btn-streaming "
+                                   href="/fr/films/marc-dorcel/pornochic-03-cristal">
+                                    <i></i>
+                                    Voir le film
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="nextpage col-xs-12">
+                    <div class="nextpage-loader"><img src="/resources/ajax-loader/1425651665.gif" alt="..." /></div>
+                    <a href="#" onclick="$('#moviesList > div.hidden-xs').removeClass('hidden-xs');		_endless.scroll('start');
+				return false">Voir la suite</a>
+                </div>
+                <div class="hidden filters-count">{}</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="footer">
+        <div class="footer_icon">
+            <div class="container">
+                <div class="icon_1 hidden-xs hidden-sm">Films récompensés</div>
+                <div class="icon_2">Des milliers de films en HD, Full HD, 4K</div>
+                <div class="icon_3">+1000 Pornstars</div>
+                <a class="icon_4" href="/fr/news.rss">Mises à jours quotidiennes</a>
+                <div class="icon_5">Compatible tout écran</div>
+                <div class="icon_6">Paiement sécurisé et discret</div>
+                <div class="icon_7 hidden-xs hidden-sm">Les plus grands studios mondiaux</div>
+            </div>
+        </div>
+        <div class="footer_ddl_torrent"><strong>Créez-vous un compte gratuit sur dorcelvision.com pour voir des films xxx en HD, une alternative légale au téléchargement, aux torrents, et au DDL. N'oubliez pas que Dorcel Vision est une plateforme légale de streaming. En y adhérant, vous financez la production et vous nous permettez de vous en offrir toujours plus !</strong></div>
+        <div class="footer_social hidden-xs">
+            <div class="container">
+                <span>Suivez Dorcel sur les réseaux sociaux</span>
+                <a target="_blank" id="icon_googleplus" href="https://plus.google.com/112266166393782262570">&nbsp;</a>
+                <a target="_blank" id="icon_tumblr" href="http://dorcelclub.tumblr.com/">&nbsp;</a>
+
+                <a target="_blank" id="icon_youtube" href="http://www.youtube.com/user/BlogDorcel">&nbsp;</a>
+                <a target="_blank" id="icon_facebook" href="http://www.facebook.com/dorcel">&nbsp;</a>
+                <a target="_blank" id="icon_twitter" href="http://twitter.com/dorcel">&nbsp;</a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footertop container">
+                <div id="subscription-message" class="col-xs-12"></div>
+                <div class="hidden-xs col-sm-6 col-md-4"><div class="logo"></div></div>
+                <div class="subscription col-xs-12 col-sm-6">
+                    <span>
+                        Inscrivez-vous à notre
+                        newsletter, 3€ offerts !
+                    </span>
+                    <form action="/fr/subscribeAjax" id="subscription" method="post" onsubmit="return subscribeEmail(this);">
+                        <input type="hidden" id="subscribe-lang" name="lang" value="fr" />	<input type="text" id="benderkiller" name="mail" value="" class="benderkiller" />	<input type="text" id="subscribe-email" name="email" value="" />	<input type="submit" id="subscribe-button" value="ok" class="btn btn-primary" />
+                    </form>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <div class="lang">
+                        <div>
+                            <a href="/fr/" onclick="$('#footer .lang div.other').toggle();
+											return false">
+                                Français										<img src="/resources/flag-fr/1426256974.png" alt="" />
+                                <img src="/resources/nextpage-white/1424856378.png" alt="" />										<br />
+                            </a>
+                            <div class="other">
+                                <a href="/en/">
+                                    Anglais										<img src="/resources/flag-en/1426257017.png" alt="" />
+                                    <br />
+                                </a>
+                                <a href="/de/">
+                                    Allemand										<img src="/resources/flag-de/1426257035.png" alt="" />
+                                    <br />
+                                </a>
+                                <a href="/es/">
+                                    Espagnol										<img src="/resources/flag-es/1426257009.png" alt="" />
+                                    <br />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="footerbottom container">
+                <div class="copyright col-xs-12 col-sm-8 col-md-4">
+                    © Copyright 2017 dorcelvision.com
+                </div>
+                <div class="cgv col-xs-12 col-md-8 text-right">
+                    <span class="hidden-xs">
+                        <a href="#" onclick="this.href = '/fr/compliance'">18 U.S.C. 2257 Record-Keeping Requirements Compliance Statement</a><br />
+                        Epoch | Be2Bill, sont nos prestataires de paiement.<br />
+                    </span>
+                    <a href="/fr/help">Service client</a>
+                    <span class="hidden-xs">| <a href="http://www.dorcelcash.com" target="_blank">Affiliation webmasters</a></span>
+                    | <a href="#" onclick="this.href = '/fr/legal'">Mentions légales</a>
+                    | <a href="#" onclick="this.href = '/fr/gtc'"><span class="hidden-xs">Conditions générales de vente</span><span class="visible-xs-inline">CGV</span></a>
+                    | <a href="#" onclick="this.href = '/fr/privacy'"><span class="hidden-xs">Vie privée</span><span class="visible-xs-inline">Vie privée</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+<!--
+			_vsnr.init();
+			_vsnr.location.init(1485192758000);
+			//-->
+    </script>
+
+
+    <script type="text/javascript">
+<!--
+		var _endless = new _vsnrEndless('entriesFilter', _vsnr.rollover);
+					_vsnr.rollover('.slides');
+					//-->
+    </script>
+
+
+    <script type="text/javascript">
+<!--
+			var params = $.parseJSON(_vsnr.colorbox);
+			params.inline = true;
+			params.className = 'with-background';
+			params.onClosed = function () {
+				$('#passwordremember-box').hide();
+				$('#login-box').show();
+			}
+			$("#login-open").colorbox(params);
+			if (!_vsnr.isLogged() && _vsnr.autoOpen) {
+				$("#login-open").click();
+			}
+			if (_vsnr.callback)
+			{
+				_vsnr.checkLogged();
+			} else {
+				_vsnr.loadFromCookie();
+			}
+			//-->
+    </script>
+
+
+</body>
+</html>
