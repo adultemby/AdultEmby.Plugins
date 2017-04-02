@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Linq;
 using System.Reflection;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Plugins;
+using MediaBrowser.Model.Logging;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Serialization;
 
@@ -9,33 +11,20 @@ namespace AdultEmby.Plugins.Data18
 {
     public class Data18 : BasePlugin<Data18Configuration>
     {
-        public Data18(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer)
+        private ILogger _logger;
+
+        public Data18(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer, ILogManager logManager) : base(applicationPaths, xmlSerializer)
         {
-            //AppDomain.CurrentDomain.AssemblyResolve += CurrentDomainOnAssemblyResolve;
+            _logger = _logger = logManager.GetLogger(GetType().FullName);
+            var version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            var descriptionAttribute = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false).OfType<AssemblyDescriptionAttribute>().FirstOrDefault();
+            var description = descriptionAttribute != null ? descriptionAttribute.Description : "UNKNOWN";
+            _logger.Info("Starting plugin {0}, version: {1}, revision: {2}", this.GetType().Name, version, description);
         }
 
         public override string Name => Data18Constants.ProviderName;
 
         public override string Description => "Gets metadata for adult movies from data18.com";
-
-        private Assembly CurrentDomainOnAssemblyResolve(object sender, ResolveEventArgs args)
-        {
-            var askedAssembly = new AssemblyName(args.Name);
-
-            var resourceName = string.Format("AdultEmby.Plugins.Assets.Assemblies.{0}.dll",
-                askedAssembly.Name);
-
-            using (var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName))
-            {
-                if (stream == null)
-                {
-                    return null;
-                }
-                var assemblyData = new byte[stream.Length];
-                stream.Read(assemblyData, 0, assemblyData.Length);
-                return Assembly.Load(assemblyData);
-            }
-        }
     }
 
     public class Data18Configuration : BasePluginConfiguration

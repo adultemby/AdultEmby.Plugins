@@ -1,5 +1,8 @@
-﻿using MediaBrowser.Common.Configuration;
+﻿using System.Linq;
+using System.Reflection;
+using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Plugins;
+using MediaBrowser.Model.Logging;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Serialization;
 
@@ -7,10 +10,16 @@ namespace AdultEmby.Plugins.DorcelVision
 {
     class DorcelVision : BasePlugin<DorcelVisionConfiguration>
     {
-        public DorcelVision(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer)
+        private ILogger _logger;
+
+        public DorcelVision(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer, ILogManager logManager)
             : base(applicationPaths, xmlSerializer)
         {
-            //AppDomain.CurrentDomain.AssemblyResolve += CurrentDomainOnAssemblyResolve;
+            _logger = _logger = logManager.GetLogger(GetType().FullName);
+            var version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            var descriptionAttribute = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false).OfType<AssemblyDescriptionAttribute>().FirstOrDefault();
+            var description = descriptionAttribute != null ? descriptionAttribute.Description : "UNKNOWN";
+            _logger.Info("Starting plugin {0}, version: {1}, revision: {2}", this.GetType().Name, version, description);
         }
 
         public override string Name => DorcelVisionConstants.ProviderName;
