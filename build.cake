@@ -59,7 +59,8 @@ Task("UpdateAssemblyVersion")
 	CreateAssemblyInfo("src\\SolutionInfo.cs", new AssemblyInfoSettings
 	{
 		Version = version,
-		FileVersion = version
+		FileVersion = version,
+		Company = "AdultEmby.Plugins"
 	});
 });
 
@@ -84,11 +85,11 @@ Task("Run-Unit-Tests")
         XUnit2("./src/**/bin/" + configuration + "/*.Test.dll");
     });
 
-//Task("Publish-Release")
-//    .IsDependentOn("Run-Unit-Tests")
-//    .WithCriteria(() => isLocal)
-//    .Does(() =>
-//    {
+Task("Publish-Release")
+    .IsDependentOn("Run-Unit-Tests")
+    .WithCriteria(() => isLocal)
+    .Does(() =>
+    {
 //        var githubToken = EnvironmentVariable("GITHUB_API_TOKEN");
 
 //        if (String.IsNullOrEmpty(githubToken))
@@ -109,7 +110,7 @@ Task("Run-Unit-Tests")
 //            Prerelease = false,
 //            TargetCommitish = "master"
 //        }).Wait();
-//    });
+    });
 
 Task("Update-AppVeyor-Build-Number")
     .WithCriteria(() => isRunningOnAppVeyor)
