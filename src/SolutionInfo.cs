@@ -3,6 +3,8 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyCompany("AdultEmby.Plugins")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyCopyright("Copyright © 2017")]
 
 // Version information for an assembly consists of the following four values:
 //

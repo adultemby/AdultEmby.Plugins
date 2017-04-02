@@ -176,6 +176,9 @@
   <ItemGroup>
     <Compile Include="HtmlExtractorUtilsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
     <Compile Include="AdultEmbyMovieProviderBaseTest.cs" />
     <Compile Include="AdultEmbyPersonProviderBaseTest.cs" />
     <Compile Include="TestSource.cs" />

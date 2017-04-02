@@ -13,6 +13,7 @@
 #tool "nuget:?package=xunit.runner.console"
 #addin "Cake.FileHelpers"
 #addin "Octokit"
+#addin "Cake.Git"
 using Octokit;
 
 var target = Argument("target", "Default");
@@ -25,6 +26,9 @@ var releaseNotes = ParseReleaseNotes("./CHANGELOG.md");
 var version = releaseNotes.Version.ToString();
 var buildDir = Directory("./src/AdultEmby.Plugins/bin") + Directory(configuration);
 var buildResultDir = Directory("./bin") + Directory(version);
+var branchName = isRunningOnAppVeyor ? EnvironmentVariable("APPVEYOR_REPO_BRANCH") : GitBranchCurrent(DirectoryPath.FromString(".")).FriendlyName;
+var isMasterBranch = System.String.Equals("master", branchName, System.StringComparison.OrdinalIgnoreCase);
+var lastCommit = GitLogTip(DirectoryPath.FromString("."));
 
 // Initialization
 // ----------------------------------------
@@ -60,7 +64,9 @@ Task("UpdateAssemblyVersion")
 	{
 		Version = version,
 		FileVersion = version,
-		Company = "AdultEmby.Plugins"
+		Company = "AdultEmby.Plugins",
+		Copyright = String.Format("Copyright © {0}{1}", DateTime.Now.Year, isMasterBranch ? "" : String.Format(" ({0}/{1})", branchName, lastCommit.Sha)),
+		Description = String.Format(" ({0}/{1})", branchName, lastCommit.Sha).Trim()
 	});
 });
 
