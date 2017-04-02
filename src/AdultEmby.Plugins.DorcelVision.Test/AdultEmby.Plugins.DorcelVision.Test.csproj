@@ -181,6 +181,9 @@
     <Compile Include="DorcelVisionPersonHtmlSearchResultExtractorTest.cs" />
     <Compile Include="DorcelVisionPersonProviderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>	
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestResponses\MovieResponse.html">

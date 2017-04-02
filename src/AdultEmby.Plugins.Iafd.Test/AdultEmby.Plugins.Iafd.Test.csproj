@@ -181,6 +181,9 @@
     <Compile Include="IafdPersonHtmlSearchResultExtractorTest.cs" />
     <Compile Include="IafdPersonProviderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>	
   </ItemGroup>
   <ItemGroup>
     <Content Include="TestResponses\MovieResponse.html">
