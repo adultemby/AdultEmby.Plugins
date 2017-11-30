@@ -1,13 +1,13 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdultEmby.Plugins.Core", "AdultEmby.Plugins.Core\AdultEmby.Plugins.Core.csproj", "{6D04A0EA-09E1-42C7-8D53-06CEAD48A935}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdultEmby.Plugins.Base", "AdultEmby.Plugins.Base\AdultEmby.Plugins.Base.csproj", "{6D04A0EA-09E1-42C7-8D53-06CEAD48A935}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdultEmby.Plugins.HotMovies", "AdultEmby.Plugins.HotMovies\AdultEmby.Plugins.HotMovies.csproj", "{D8D8163D-03AF-4A8B-A335-072A1E5F3F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdultEmby.Plugins.Core.Test", "AdultEmby.Plugins.Core.Test\AdultEmby.Plugins.Core.Test.csproj", "{669CA6A4-B0E8-4970-AFAD-461297F8A143}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdultEmby.Plugins.Base.Test", "AdultEmby.Plugins.Base.Test\AdultEmby.Plugins.Base.Test.csproj", "{669CA6A4-B0E8-4970-AFAD-461297F8A143}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdultEmby.Plugins.TestLogging", "AdultEmby.Plugins.TestLogging\AdultEmby.Plugins.TestLogging.csproj", "{B50CFAD8-E661-4C6C-96AA-98E734782966}"
 EndProject

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -7,8 +7,8 @@
     <ProjectGuid>{669CA6A4-B0E8-4970-AFAD-461297F8A143}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AdultEmby.Plugins.Core.Test</RootNamespace>
-    <AssemblyName>AdultEmby.Plugins.Core.Test</AssemblyName>
+    <RootNamespace>AdultEmby.Plugins.Base.Test</RootNamespace>
+    <AssemblyName>AdultEmby.Plugins.Base.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -192,9 +192,9 @@
     <Compile Include="ThrottleTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AdultEmby.Plugins.Core\AdultEmby.Plugins.Core.csproj">
+    <ProjectReference Include="..\AdultEmby.Plugins.Base\AdultEmby.Plugins.Base.csproj">
       <Project>{6d04a0ea-09e1-42c7-8d53-06cead48a935}</Project>
-      <Name>AdultEmby.Plugins.Core</Name>
+      <Name>AdultEmby.Plugins.Base</Name>
     </ProjectReference>
     <ProjectReference Include="..\AdultEmby.Plugins.TestLogging\AdultEmby.Plugins.TestLogging.csproj">
       <Project>{b50cfad8-e661-4c6c-96aa-98e734782966}</Project>

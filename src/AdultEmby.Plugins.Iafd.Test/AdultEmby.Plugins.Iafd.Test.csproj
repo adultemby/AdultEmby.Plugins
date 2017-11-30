@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -203,9 +203,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AdultEmby.Plugins.Core\AdultEmby.Plugins.Core.csproj">
+    <ProjectReference Include="..\AdultEmby.Plugins.Base\AdultEmby.Plugins.Base.csproj">
       <Project>{6d04a0ea-09e1-42c7-8d53-06cead48a935}</Project>
-      <Name>AdultEmby.Plugins.Core</Name>
+      <Name>AdultEmby.Plugins.Base</Name>
     </ProjectReference>
     <ProjectReference Include="..\AdultEmby.Plugins.Iafd\AdultEmby.Plugins.Iafd.csproj">
       <Project>{04c645ab-70a5-4bf1-8c2b-378108c2811f}</Project>
