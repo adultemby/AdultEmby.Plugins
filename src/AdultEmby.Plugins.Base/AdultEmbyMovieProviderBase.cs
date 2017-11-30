@@ -18,7 +18,7 @@ using MediaBrowser.Model.Logging;
 using MediaBrowser.Model.Providers;
 using MediaBrowser.Model.Serialization;
 
-namespace AdultEmby.Plugins.Core
+namespace AdultEmby.Plugins.Base
 {
     public abstract class AdultEmbyMovieProviderBase : AdultEmbyProviderBase
     {

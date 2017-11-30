@@ -3,7 +3,7 @@ using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Plugins;
 using MediaBrowser.Model.Serialization;
 
-namespace AdultEmby.Plugins.Core.Test
+namespace AdultEmby.Plugins.Base.Test
 {
     public class TestSource : BasePlugin<TestSourceConfiguration>
     {

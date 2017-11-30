@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.TestLogging;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;

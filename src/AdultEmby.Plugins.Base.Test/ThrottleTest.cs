@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.TestLogging;
 using MediaBrowser.Model.Logging;
 using Xunit;
 
-namespace AdultEmby.Plugins.Core.Test
+namespace AdultEmby.Plugins.Base.Test
 {
     public class ThrottleTest
     {

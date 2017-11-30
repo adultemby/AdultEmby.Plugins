@@ -5,7 +5,7 @@ using AngleSharp.Parser.Html;
 using MediaBrowser.Model.Logging;
 using NSubstitute;
 using Xunit;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.HotMovies;
 using AdultEmby.Plugins.TestLogging;
 

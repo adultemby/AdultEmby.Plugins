@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using AngleSharp.Dom;
 
-namespace AdultEmby.Plugins.Core
+namespace AdultEmby.Plugins.Base
 {
     public interface IHtmlSearchResultExtractor
     {

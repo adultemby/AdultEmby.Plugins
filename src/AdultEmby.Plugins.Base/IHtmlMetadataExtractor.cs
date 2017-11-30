@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using AngleSharp.Dom;
 using MediaBrowser.Controller.Entities;
 
-namespace AdultEmby.Plugins.Core
+namespace AdultEmby.Plugins.Base
 {
     public interface IHtmlMetadataExtractor
     {

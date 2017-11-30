@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AngleSharp.Dom;
 using AngleSharp.Dom.Html;
 using MediaBrowser.Model.Logging;
-using static AdultEmby.Plugins.Core.HtmlExtractorUtils;
+using static AdultEmby.Plugins.Base.HtmlExtractorUtils;
 
 namespace AdultEmby.Plugins.Data18
 {

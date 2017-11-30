@@ -2,7 +2,7 @@
 using System.IO;
 using MediaBrowser.Model.Logging;
 using Xunit;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.Iafd;
 using AdultEmby.Plugins.TestLogging;
 using AngleSharp;

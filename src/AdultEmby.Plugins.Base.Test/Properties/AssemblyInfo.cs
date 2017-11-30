@@ -1,12 +1,12 @@
-﻿using System.Reflection;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AdultEmby.Plugins.Core.Test")]
+[assembly: AssemblyTitle("AdultEmby.Plugins.Base.Test")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyProduct("AdultEmby.Plugins.Core.Test")]
+[assembly: AssemblyProduct("AdultEmby.Plugins.Base.Test")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

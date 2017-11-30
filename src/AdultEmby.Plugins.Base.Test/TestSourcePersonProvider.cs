@@ -1,5 +1,5 @@
 ﻿using System.IO;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Configuration;
@@ -9,7 +9,7 @@ using MediaBrowser.Model.IO;
 using MediaBrowser.Model.Logging;
 using MediaBrowser.Model.Serialization;
 
-namespace AdultEmby.Plugins.Core.Test
+namespace AdultEmby.Plugins.Base.Test
 {
     public class TestSourcePersonProvider : AdultEmbyPersonProviderBase, IRemoteMetadataProvider<Person, PersonLookupInfo>, IRemoteImageProvider
     {

@@ -3,7 +3,7 @@ using System.IO;
 using MediaBrowser.Model.Logging;
 using NSubstitute;
 using Xunit;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.DorcelVision;
 using AdultEmby.Plugins.TestLogging;
 using AngleSharp;

@@ -2,14 +2,14 @@ using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Model.Logging;
 using System.IO;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.IO;
 using MediaBrowser.Model.Serialization;
 
-namespace AdultEmby.Plugins.Core.Test
+namespace AdultEmby.Plugins.Base.Test
 {
     public class TestSourceMovieProvider : AdultEmbyMovieProviderBase, IRemoteMetadataProvider<Movie, MovieInfo>, IRemoteImageProvider
     {

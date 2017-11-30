@@ -1,5 +1,5 @@
 ﻿using System.IO;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using MediaBrowser.Common.Configuration;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller.Configuration;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.Iafd;
 using AdultEmby.Plugins.TestLogging;
 using AngleSharp.Dom.Html;

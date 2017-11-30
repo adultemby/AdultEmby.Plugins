@@ -6,7 +6,7 @@ using System.Net;
 using System.Net.Mime;
 using System.Threading;
 using System.Threading.Tasks;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.Data18;
 using AdultEmby.Plugins.TestLogging;
 using MediaBrowser.Common;

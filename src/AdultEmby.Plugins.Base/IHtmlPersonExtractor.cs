@@ -1,7 +1,7 @@
 ﻿using System;
 using AngleSharp.Dom.Html;
 
-namespace AdultEmby.Plugins.Core
+namespace AdultEmby.Plugins.Base
 {
     public interface IHtmlPersonExtractor
     {

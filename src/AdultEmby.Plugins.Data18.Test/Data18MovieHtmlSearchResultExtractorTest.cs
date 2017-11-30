@@ -7,7 +7,7 @@ using AngleSharp.Parser.Html;
 using MediaBrowser.Model.Logging;
 using NSubstitute;
 using Xunit;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.TestLogging;
 
 namespace AdultEmby.Plugins.Data18.Test

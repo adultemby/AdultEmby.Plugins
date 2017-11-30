@@ -19,7 +19,7 @@ using MediaBrowser.Model.Serialization;
 using NSubstitute;
 using Xunit;
 
-namespace AdultEmby.Plugins.Core.Test
+namespace AdultEmby.Plugins.Base.Test
 {
     public class AdultEmbyMovieProviderBaseTest
     {

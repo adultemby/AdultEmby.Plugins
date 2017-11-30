@@ -4,7 +4,7 @@ using AngleSharp.Dom;
 using AngleSharp.Dom.Html;
 using AngleSharp.Extensions;
 
-namespace AdultEmby.Plugins.Core
+namespace AdultEmby.Plugins.Base
 {
     public class HtmlExtractorUtils
     {

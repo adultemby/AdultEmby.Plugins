@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.HotMovies;
 using AdultEmby.Plugins.TestLogging;
 using AngleSharp.Dom.Html;

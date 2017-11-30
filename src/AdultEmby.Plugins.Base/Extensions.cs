@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace AdultEmby.Plugins.Core
+namespace AdultEmby.Plugins.Base
 {
     internal static class Extensions
     {

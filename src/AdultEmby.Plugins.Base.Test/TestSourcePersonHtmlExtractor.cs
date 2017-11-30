@@ -1,9 +1,9 @@
 ﻿using System;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AngleSharp.Dom.Html;
 using MediaBrowser.Model.Logging;
 
-namespace AdultEmby.Plugins.Core.Test
+namespace AdultEmby.Plugins.Base.Test
 {
     public class TestSourcePersonHtmlExtractor : IHtmlPersonExtractor
     {

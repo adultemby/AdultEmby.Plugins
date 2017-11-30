@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AngleSharp.Dom;
 using MediaBrowser.Model.Logging;
 
-namespace AdultEmby.Plugins.Core.Test
+namespace AdultEmby.Plugins.Base.Test
 {
     public class TestSourceMovieHtmlSearchResultExtractor : IHtmlSearchResultExtractor
     {

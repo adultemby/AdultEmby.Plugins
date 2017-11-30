@@ -1,4 +1,4 @@
-﻿namespace AdultEmby.Plugins.Core
+﻿namespace AdultEmby.Plugins.Base
 {
     public class StringUtils
     {

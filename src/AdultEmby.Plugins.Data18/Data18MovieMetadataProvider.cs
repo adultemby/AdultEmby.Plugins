@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using AdultEmby.Plugins.Core;
+using AdultEmby.Plugins.Base;
 using AngleSharp.Dom;
 using AngleSharp.Dom.Html;
 using MediaBrowser.Controller.Configuration;
