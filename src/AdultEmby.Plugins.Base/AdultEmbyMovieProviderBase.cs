@@ -174,7 +174,7 @@ namespace AdultEmby.Plugins.Base
                 var img = new ItemImageInfo();
                 img.Type = ImageType.Primary;
                 img.Path = url;
-                result.Item.ImageInfos.Add(img);
+                result.Item.SetImage(img, 0);
             }
         }
 
@@ -344,7 +344,7 @@ namespace AdultEmby.Plugins.Base
             return result;
         }
 
-        public async Task<IEnumerable<RemoteImageInfo>> GetImages(IHasImages item, CancellationToken cancellationToken)
+        public async Task<IEnumerable<RemoteImageInfo>> GetImages(IHasMetadata item, CancellationToken cancellationToken)
         {
             var list = new List<RemoteImageInfo>();
             if (item is Movie)
@@ -449,12 +449,12 @@ namespace AdultEmby.Plugins.Base
             return result;
         }
 
-        public bool Supports(IHasImages item)
+        public bool Supports(IHasMetadata item)
         {
             return item is Movie;
         }
 
-        public IEnumerable<ImageType> GetSupportedImages(IHasImages item)
+        public IEnumerable<ImageType> GetSupportedImages(IHasMetadata item)
         {
             return new List<ImageType> { ImageType.Primary, /*, ImageType.BoxRear*/};
         }

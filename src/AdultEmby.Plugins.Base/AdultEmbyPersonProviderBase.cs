@@ -225,8 +225,7 @@ namespace AdultEmby.Plugins.Base
 
                 if (!string.IsNullOrWhiteSpace(birthPlace))
                 {
-                    item.PlaceOfBirth = birthPlace;
-                    item.ProductionLocations = new List<string> { birthPlace };
+                    item.ProductionLocations = new string[] { birthPlace };
                 }
 
                 DateTime? birthdate = personResult.Birthdate;
@@ -248,7 +247,7 @@ namespace AdultEmby.Plugins.Base
                         Type = ImageType.Primary,
                         Path = primaryImageUrl
                     };
-                    item.ImageInfos.Add(img);
+                    item.SetImage(img, 0);
                 }
                 result.HasMetadata = true;
 
@@ -258,7 +257,7 @@ namespace AdultEmby.Plugins.Base
             return result;
         }
 
-        public async Task<IEnumerable<RemoteImageInfo>> GetImages(IHasImages item, CancellationToken cancellationToken)
+        public async Task<IEnumerable<RemoteImageInfo>> GetImages(IHasMetadata item, CancellationToken cancellationToken)
         {
             var list = new List<RemoteImageInfo>();
             if (item is Person)
@@ -327,12 +326,12 @@ namespace AdultEmby.Plugins.Base
             return personResult;
         }
 
-        public bool Supports(IHasImages item)
+        public bool Supports(IHasMetadata item)
         {
             return item is Person;
         }
 
-        public IEnumerable<ImageType> GetSupportedImages(IHasImages item)
+        public IEnumerable<ImageType> GetSupportedImages(IHasMetadata item)
         {
             return new List<ImageType> { ImageType.Primary };
         }
