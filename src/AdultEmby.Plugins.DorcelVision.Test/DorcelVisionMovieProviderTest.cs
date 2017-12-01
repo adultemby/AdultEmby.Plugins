@@ -51,7 +51,7 @@ namespace AdultEmby.Plugins.DorcelVision.Test
             Assert.Equal("La Transporteuse", metadataResult.Item.Name);
             Assert.Equal(7, metadataResult.People.Count);
             Assert.Equal(5, metadataResult.Item.Genres.Count);
-            Assert.Equal(1, metadataResult.Item.Studios.Count);
+            Assert.Equal(1, metadataResult.Item.Studios.Length);
             Assert.Equal(2015, metadataResult.Item.ProductionYear);
             Assert.Equal("https://www.dorcelvision.com/images/endless3/703161.jpg", metadataResult.Item.ImageInfos[0].Path);
             //Assert.Equal(Release date);
@@ -102,7 +102,7 @@ namespace AdultEmby.Plugins.DorcelVision.Test
             Assert.Equal("La Transporteuse", metadataResult.Item.Name);
             Assert.Equal(7, metadataResult.People.Count);
             Assert.Equal(5, metadataResult.Item.Genres.Count);
-            Assert.Equal(1, metadataResult.Item.Studios.Count);
+            Assert.Equal(1, metadataResult.Item.Studios.Length);
             Assert.Equal(2015, metadataResult.Item.ProductionYear);
             Assert.Equal("https://www.dorcelvision.com/images/endless3/703161.jpg", metadataResult.Item.ImageInfos[0].Path);
             //Assert.Equal(Release date);

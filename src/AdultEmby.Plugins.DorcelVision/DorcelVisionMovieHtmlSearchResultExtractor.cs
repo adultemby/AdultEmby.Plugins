@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Data;
 using AdultEmby.Plugins.Base;
 using AngleSharp.Dom;
 using AngleSharp.Dom.Html;
