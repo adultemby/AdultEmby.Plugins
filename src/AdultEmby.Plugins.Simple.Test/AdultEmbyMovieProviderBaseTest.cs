@@ -54,7 +54,7 @@ namespace AdultEmby.Plugins.Simple.Test
             MetadataResult<Movie> result = await movieProvider.GetMetadata(movie, cancellationToken);
 
             Assert.Equal("TITLE", result.Item.Name);
-            //Assert.Equal("BIRTH_PLACE", result.Item.PlaceOfBirth);
+            //Assert.Equal("BIRTH_PLACE", result.Item.ProductionLocations[0]);
             Assert.Equal(2010, result.Item.ProductionYear);
             //Assert.Equal(new DateTime(2001, 1, 1), result.Item.PremiereDate);
             Assert.Equal(ImageType.Primary, result.Item.ImageInfos.First().Type);

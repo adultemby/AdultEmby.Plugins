@@ -46,7 +46,7 @@ namespace AdultEmby.Plugins.DorcelVision.Test
 
             //Assert.Equal("", result.It);
             Assert.Equal("Nikita Bellucci", result.Item.Name);
-            //Assert.Equal(null, result.Item.PlaceOfBirth);
+            Assert.Equal(0, result.Item.ProductionLocations.Length);
             Assert.Equal(null, result.Item.ProductionYear);
             //Assert.Equal(new DateTime(1986, 10, 7), result.Item.PremiereDate);
             //Assert.Equal(ImageType.Primary, images.First().Type);
