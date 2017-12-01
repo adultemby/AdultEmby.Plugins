@@ -24,7 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AdultEmby.Plugins.JacquieEtMichel\AdultEmby.Plugins.JacquieEtMichel.csproj" />
-    <ProjectReference Include="..\AdultEmby.Plugins.Standard.TestLogging\AdultEmby.Plugins.Standard.TestLogging.csproj" />
+    <ProjectReference Include="..\AdultEmby.Plugins.TestLogging\AdultEmby.Plugins.TestLogging.csproj" />
   </ItemGroup>
 
 </Project>
