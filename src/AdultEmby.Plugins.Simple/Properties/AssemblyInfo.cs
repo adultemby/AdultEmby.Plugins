@@ -4,9 +4,9 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-//[assembly: AssemblyTitle("AdultEmby.Plugins.Base")]
+//[assembly: AssemblyTitle("AdultEmby.Plugins.Simple")]
 //[assembly: AssemblyConfiguration("")]
-//[assembly: AssemblyProduct("AdultEmby.Plugins.Base")]
+//[assembly: AssemblyProduct("AdultEmby.Plugins.Simple")]
 //[assembly: AssemblyTrademark("")]
 //[assembly: AssemblyCulture("")]
 

@@ -55,9 +55,9 @@
 [submodule "src/AdultEmby.Plugins.JacquieEtMichel/AdultEmby.AngleSharp"]
 	path = src/AdultEmby.Plugins.JacquieEtMichel/AdultEmby.AngleSharp
 	url = ../AdultEmby.AngleSharp.git
-[submodule "src/AdultEmby.Plugins.Base/AdultEmby.Plugins.Base"]
-	path = src/AdultEmby.Plugins.Base/AdultEmby.Plugins.Base
+[submodule "src/AdultEmby.Plugins.Simple/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Simple/AdultEmby.Plugins.Base
 	url = ../AdultEmby.Plugins.Base.git
-[submodule "src/AdultEmby.Plugins.Base/AdultEmby.AngleSharp"]
-	path = src/AdultEmby.Plugins.Base/AdultEmby.AngleSharp
+[submodule "src/AdultEmby.Plugins.Simple/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Simple/AdultEmby.AngleSharp
 	url = ../AdultEmby.AngleSharp.git

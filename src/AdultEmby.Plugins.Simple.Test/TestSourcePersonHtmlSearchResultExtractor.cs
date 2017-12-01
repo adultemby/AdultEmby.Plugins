@@ -4,7 +4,7 @@ using AdultEmby.Plugins.Base;
 using AngleSharp.Dom;
 using MediaBrowser.Model.Logging;
 
-namespace AdultEmby.Plugins.Base.Test
+namespace AdultEmby.Plugins.Simple.Test
 {
     public class TestSourcePersonHtmlSearchResultExtractor : IHtmlSearchResultExtractor
     {

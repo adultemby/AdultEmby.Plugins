@@ -3,7 +3,7 @@ using MediaBrowser.Controller.Entities.Movies;
 using MediaBrowser.Controller.Providers;
 using MediaBrowser.Model.Entities;
 
-namespace AdultEmby.Plugins.Base.Test
+namespace AdultEmby.Plugins.Simple.Test
 {
     public class TestSourceId : IExternalId
     {

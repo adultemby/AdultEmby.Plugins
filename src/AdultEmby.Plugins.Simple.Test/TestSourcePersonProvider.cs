@@ -9,7 +9,7 @@ using MediaBrowser.Model.IO;
 using MediaBrowser.Model.Logging;
 using MediaBrowser.Model.Serialization;
 
-namespace AdultEmby.Plugins.Base.Test
+namespace AdultEmby.Plugins.Simple.Test
 {
     public class TestSourcePersonProvider : AdultEmbyPersonProviderBase, IRemoteMetadataProvider<Person, PersonLookupInfo>, IRemoteImageProvider
     {

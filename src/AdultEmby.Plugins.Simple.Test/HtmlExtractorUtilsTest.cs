@@ -1,9 +1,10 @@
-﻿using AngleSharp.Dom;
+﻿using AdultEmby.Plugins.Base;
+using AngleSharp.Dom;
 using AngleSharp.Dom.Html;
 using AngleSharp.Parser.Html;
 using Xunit;
 
-namespace AdultEmby.Plugins.Base.Test
+namespace AdultEmby.Plugins.Simple.Test
 {
     public class HtmlExtractorUtilsTest
     {

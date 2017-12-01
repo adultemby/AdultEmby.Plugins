@@ -6,7 +6,7 @@ using AdultEmby.Plugins.TestLogging;
 using MediaBrowser.Model.Logging;
 using Xunit;
 
-namespace AdultEmby.Plugins.Base.Test
+namespace AdultEmby.Plugins.Simple.Test
 {
     public class ThrottleTest
     {

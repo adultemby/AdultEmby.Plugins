@@ -24,9 +24,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdultEmby.Plugins.JacquieEt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdultEmby.Plugins.TestLogging", "AdultEmby.Plugins.TestLogging\AdultEmby.Plugins.TestLogging.csproj", "{B78C7022-4675-4D99-B4A5-DF904D324587}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdultEmby.Plugins.Base", "AdultEmby.Plugins.Base\AdultEmby.Plugins.Base.csproj", "{533DA003-17BD-474B-8FF9-D4E2909905E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdultEmby.Plugins.Simple", "AdultEmby.Plugins.Simple\AdultEmby.Plugins.Simple.csproj", "{533DA003-17BD-474B-8FF9-D4E2909905E3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdultEmby.Plugins.Base.Test", "AdultEmby.Plugins.Base.Test\AdultEmby.Plugins.Base.Test.csproj", "{1C015573-6CB5-4280-8E5E-27E88B56E19A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdultEmby.Plugins.Simple.Test", "AdultEmby.Plugins.Simple.Test\AdultEmby.Plugins.Simple.Test.csproj", "{1C015573-6CB5-4280-8E5E-27E88B56E19A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
+using AdultEmby.Plugins.Base;
 using AdultEmby.Plugins.TestLogging;
 using MediaBrowser.Common.Net;
 using MediaBrowser.Controller;
@@ -19,7 +20,7 @@ using MediaBrowser.Model.Serialization;
 using NSubstitute;
 using Xunit;
 
-namespace AdultEmby.Plugins.Base.Test
+namespace AdultEmby.Plugins.Simple.Test
 {
     public class AdultEmbyMovieProviderBaseTest
     {
