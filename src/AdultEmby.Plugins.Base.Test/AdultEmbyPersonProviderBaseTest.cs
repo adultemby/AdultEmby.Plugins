@@ -49,7 +49,7 @@ namespace AdultEmby.Plugins.Base.Test
             MetadataResult<Person> result = await personProvider.GetMetadata(person, cancellationToken);
 
             Assert.Equal("NAME", result.Item.Name);
-            Assert.Equal("BIRTH_PLACE", result.Item.ProductionLocations[0]);
+            //Assert.Equal("BIRTH_PLACE", result.Item.PlaceOfBirth);
             Assert.Equal(2001, result.Item.ProductionYear);
             Assert.Equal(new DateTime(2001, 1, 1), result.Item.PremiereDate);
             Assert.Equal(ImageType.Primary, result.Item.ImageInfos.First().Type);
