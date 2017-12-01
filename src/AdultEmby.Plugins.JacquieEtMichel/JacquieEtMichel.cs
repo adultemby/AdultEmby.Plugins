@@ -16,10 +16,16 @@ namespace AdultEmby.Plugins.JacquieEtMichel
             : base(applicationPaths, xmlSerializer)
         {
             _logger = _logger = logManager.GetLogger(GetType().FullName);
-            var version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-            var descriptionAttribute = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false).OfType<AssemblyDescriptionAttribute>().FirstOrDefault();
-            var description = descriptionAttribute != null ? descriptionAttribute.Description : "UNKNOWN";
-            _logger.Info("Starting plugin {0}, version: {1}, revision: {2}", this.GetType().Name, version, description);
+            
+            /* _runtimeVersion = typeof(RuntimeEnvironment)
+                .GetTypeInfo()
+                .Assembly
+                .GetCustomAttribute<AssemblyInformationalVersionAttribute>()
+                .InformationalVersion;*/
+            //var version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            //var descriptionAttribute = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyDescriptionAttribute), false).OfType<AssemblyDescriptionAttribute>().FirstOrDefault();
+            //var description = descriptionAttribute != null ? descriptionAttribute.Description : "UNKNOWN";
+            //_logger.Info("Starting plugin {0}, version: {1}, revision: {2}", this.GetType().Name, version, description);
         }
 
         public override string Name => JacquieEtMichelConstants.ProviderName;

@@ -51,7 +51,7 @@ namespace AdultEmby.Plugins.JacquieEtMichel.Test
             Assert.Equal("Alessandra, 22ans, prof de fitness russe !", metadataResult.Item.Name);
             //Assert.Equal(8, metadataResult.People.Count);
             Assert.Equal(3, metadataResult.Item.Genres.Count);
-            Assert.Equal(1, metadataResult.Item.Studios.Count);
+            Assert.Equal(1, metadataResult.Item.Studios.Length);
             Assert.Equal(2016, metadataResult.Item.ProductionYear);
             Assert.Equal("http://m.tv1.cdn.jetm-tech.net/cache/4a/db/4adb0409c4db46aa539e1c74cc8f06f5.jpg", metadataResult.Item.ImageInfos[0].Path);
             //Assert.Equal(Release date);
@@ -102,7 +102,7 @@ namespace AdultEmby.Plugins.JacquieEtMichel.Test
             Assert.Equal("Alessandra, 22ans, prof de fitness russe !", metadataResult.Item.Name);
             Assert.Equal(0, metadataResult.People.Count);
             Assert.Equal(3, metadataResult.Item.Genres.Count);
-            Assert.Equal(1, metadataResult.Item.Studios.Count);
+            Assert.Equal(1, metadataResult.Item.Studios.Length);
             Assert.Equal(2016, metadataResult.Item.ProductionYear);
             Assert.Equal("http://m.tv1.cdn.jetm-tech.net/cache/4a/db/4adb0409c4db46aa539e1c74cc8f06f5.jpg", metadataResult.Item.ImageInfos[0].Path);
             //Assert.Equal(Release date);

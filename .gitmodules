@@ -1,0 +1,63 @@
+[submodule "src/AdultEmby.Plugins.Standard.Base/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Standard.Base/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.Standard.Base/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Standard.Base/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.Standard.JacquieEtMichel/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Standard.JacquieEtMichel/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.Standard.JacquieEtMichel/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Standard.JacquieEtMichel/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.Standard.HotMovies/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Standard.HotMovies/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.Standard.HotMovies/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Standard.HotMovies/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.Standard.Data18/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Standard.Data18/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.Standard.Data18/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Standard.Data18/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.Standard.DorcelVision/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Standard.DorcelVision/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.Standard.Iafd/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Standard.Iafd/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.Standard.Iafd/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Standard.Iafd/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.Data18/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Data18/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.Data18/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Data18/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.DorcelVision/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.DorcelVision/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.DorcelVision/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.DorcelVision/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.HotMovies/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.HotMovies/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.HotMovies/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.HotMovies/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.Iafd/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.Iafd/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.Iafd/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.Iafd/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
+[submodule "src/AdultEmby.Plugins.JacquieEtMichel/AdultEmby.Plugins.Base"]
+	path = src/AdultEmby.Plugins.JacquieEtMichel/AdultEmby.Plugins.Base
+	url = ../AdultEmby.Plugins.Base.git
+[submodule "src/AdultEmby.Plugins.JacquieEtMichel/AdultEmby.AngleSharp"]
+	path = src/AdultEmby.Plugins.JacquieEtMichel/AdultEmby.AngleSharp
+	url = ../AdultEmby.AngleSharp.git
