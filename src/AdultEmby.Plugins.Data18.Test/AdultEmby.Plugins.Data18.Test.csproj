@@ -7,6 +7,62 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="TestResponses\ContentResponse - Copy %282%29.html" />
+    <None Remove="TestResponses\ContentResponse.html" />
+    <None Remove="TestResponses\ContentSearchResponse.html" />
+    <None Remove="TestResponses\ContentWithNetworkResponse.html" />
+    <None Remove="TestResponses\ContentWithoutWhosWhoResponse.html" />
+    <None Remove="TestResponses\ContentWithStudioResponse.html" />
+    <None Remove="TestResponses\MovieResponse.html" />
+    <None Remove="TestResponses\MovieResponseWithNoProfileActors.html" />
+    <None Remove="TestResponses\MovieSearchResponse.html" />
+    <None Remove="TestResponses\NoMetadata.html" />
+    <None Remove="TestResponses\PersonResponse.html" />
+    <None Remove="TestResponses\PersonSearchResponse.html" />
+    <None Remove="TestResponses\SecurityPage.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="TestResponses\ContentResponse - Copy (2).html" />
+    <EmbeddedResource Include="TestResponses\ContentResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\ContentSearchResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\ContentWithNetworkResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\ContentWithoutWhosWhoResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\ContentWithStudioResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\MovieResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\MovieResponseWithNoProfileActors.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\MovieSearchResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\NoMetadata.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\PersonResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\PersonSearchResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\SecurityPage.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
     <PackageReference Include="NSubstitute" Version="3.1.0" />
     <PackageReference Include="xunit" Version="2.2.0" />
@@ -16,6 +72,12 @@
   <ItemGroup>
     <ProjectReference Include="..\AdultEmby.Plugins.Data18\AdultEmby.Plugins.Data18.csproj" />
     <ProjectReference Include="..\AdultEmby.Plugins.TestLogging\AdultEmby.Plugins.TestLogging.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="TestResponses\ContentResponse - Copy %282%29.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

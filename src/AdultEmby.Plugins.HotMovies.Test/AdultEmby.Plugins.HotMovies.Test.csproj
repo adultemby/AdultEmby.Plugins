@@ -7,6 +7,40 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="TestResponses\MovieResponse.html" />
+    <None Remove="TestResponses\MovieSearchResponse.html" />
+    <None Remove="TestResponses\NoMetadata.html" />
+    <None Remove="TestResponses\PersonResponse.html" />
+    <None Remove="TestResponses\PersonResponseNoStarGallery.html" />
+    <None Remove="TestResponses\PersonSearchResponse.html" />
+    <None Remove="TestResponses\SearchResponseRelavancy.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="TestResponses\MovieResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\MovieSearchResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\NoMetadata.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\PersonResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\PersonResponseNoStarGallery.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\PersonSearchResponse.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestResponses\SearchResponseRelavancy.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
     <PackageReference Include="NSubstitute" Version="3.1.0" />
     <PackageReference Include="xunit" Version="2.2.0" />
