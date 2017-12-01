@@ -10,4 +10,8 @@
     <PackageReference Include="System.Net.Requests" Version="4.3.0" />
   </ItemGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy &quot;$(TargetPath)&quot; &quot;N:\Emby\programdata\plugins\&quot; /y" />
+  </Target>
+
 </Project>
